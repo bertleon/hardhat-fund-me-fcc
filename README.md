@@ -1,6 +1,6 @@
 # Hardhat FreeCodeCamp FundMe Project
 
-This project deploys a smart contract called FundMe which allows people to send value to the contract and allows the owner of the contract to withdraw value from the contract. 
+This project deploys a smart contract called FundMe which allows people to send value to the contract and allows the owner of the contract to withdraw value from the contract. (Lesson 7)
 
 
 ## **Project Setup**: 
