@@ -20,23 +20,7 @@ COINMARKETCAP_API_KEY=
 
 ```
 
-### RINKEBY_RPC_URL
-1. Create account at https://www.alchemy.com/
-2. Create and App on Ethereum chain on the Rinkeby network
-3. Click VIEW KEY and copy the key into the .env file
 
-### PRIVATE KEY
-1. Go to your metamask account
-2. Go to the 3 dots 
-3. Go to Account Details 
-4. Click Export Private Key (you'll be prompted for your password)
-5. 
-
-### ETHERSCAN_API_KEY
-1.
-
-### COINMARKETCAP_API_KEY
-1.
 
 
 
@@ -68,3 +52,35 @@ yarn deploy:rinkeby
 yarn test:staging
 
 ```
+
+
+
+## **APPENDIX**: 
+
+### SETTING UP .env FILE
+
+ RINKEBY_RPC_URL
+1. Create account at https://www.alchemy.com/
+2. Create and App on Ethereum chain on the Rinkeby network
+3. Click VIEW KEY and copy the key into the .env file
+
+ PRIVATE KEY
+1. Go to your metamask account
+2. Go to the 3 dots 
+3. Go to Account Details 
+4. Click Export Private Key (you will be prompted for your password)
+5. Put private key into .env file
+
+ ETHERSCAN_API_KEY
+1. Go to https://etherscan.io/ 
+2. Login or create an account with API plan (if needed)
+3. On left side bar go to API KEYS 
+4. Click ADD+ and enter your project name
+5. Copy API KEY and add it to .env file
+
+ COINMARKETCAP_API_KEY
+1. Go to https://coinmarketcap.com/
+2. Login or create an account with API access (if needed)
+3. Go to https://coinmarketcap.com/api/
+4. Click GET YOUR API KEY NOW
+5. Copy the API KEY and paste into .env file
